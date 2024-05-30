@@ -8,7 +8,7 @@ import lombok.NoArgsConstructor;
 @AllArgsConstructor
 @NoArgsConstructor
 public class EmployeeRequest {
-    private Long employeeId;
     private String name;
     private String email;
+    private String departmentName;
 }
